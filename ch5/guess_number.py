@@ -1,9 +1,9 @@
 import random
 
-b = random.randint(1,100)
+b = random.randint(1,99)
 #b = 20
 while True:
-    a = int(input("Please input a number from 1-100: "))
+    a = int(input("Please input a number from 1-99: "))
 
     if (a==b):
         print("You made it!")
